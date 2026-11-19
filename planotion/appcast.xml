@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Planotion</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Thu, 19 Nov 2026 11:55:13 -0800</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[First public release.
+
+- Plans your Notion tasks against your Apple Calendar in one window.
+- Checks for updates daily; use **Planotion › Check for Updates…** any time, and choose in **Settings › General** whether updates install automatically.
+]]></description>
+            <enclosure url="https://github.com/kysz/releases/releases/download/planotion-v1.0.0/Planotion-1.0.0.zip" length="4426305" type="application/octet-stream" sparkle:edSignature="1sa6+zbYC0N8hREiC3BTEG7PefVJh4/4bLu1YwZxEUofxLDDDLZGu9ajKVxlxStMyXBAEhwKb4eYBLoVJoYZBQ=="/>
+        </item>
+    </channel>
+</rss>
