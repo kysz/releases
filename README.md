@@ -6,6 +6,7 @@ only holds what installed copies read to update themselves.
 
 | App | Feed | Downloads |
 |---|---|---|
+| Planotion | [`planotion/appcast.xml`](https://updates.kysz.app/planotion/appcast.xml) | releases tagged `planotion-v*` |
 | Planotion Capture | [`capture/appcast.xml`](https://updates.kysz.app/capture/appcast.xml) | releases tagged `capture-v*` |
 
 - `<app>/appcast.xml` is a [Sparkle](https://sparkle-project.org) feed. Every
