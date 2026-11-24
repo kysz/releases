@@ -3,6 +3,21 @@
     <channel>
         <title>Planotion</title>
         <item>
+            <title>1.4.0</title>
+            <pubDate>Tue, 24 Nov 2026 14:52:02 -0800</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Share your availability by email.
+
+- **Scheduling.** Turn on the calendar-clock button in the toolbar, then drag across the calendar to mark when you're free. Drag again to add more times, on any day; click a marked time to unmark it.
+- **Copy a snippet.** Copy puts your free times on the clipboard as plain text, grouped by day and ready to paste into an email. Times next to each other show as one range, like 9:00 – 10:00 AM.
+- **Pick the meeting length.** Choose 15 minutes to 1½ hours. The snippet names it, and leaves out marked times too short to fit it.
+- **Show other time zones.** Tick Time zones and add any you like. Each time then appears in every zone, with the weekday added where it falls on a different day.
+]]></description>
+            <enclosure url="https://github.com/kysz/releases/releases/download/planotion-v1.4.0/Planotion-1.4.0.zip" length="4690143" type="application/octet-stream" sparkle:edSignature="4kf1rNq4dIN+eX5d1Rb3RKfMAv9g14vGOxBxCMX75RTB0FCIq05e4SZUMlJyW9ur3k/e07Q+kTJ/lRtnxC8wBg=="/>
+        </item>
+        <item>
             <title>1.3.0</title>
             <pubDate>Sat, 21 Nov 2026 14:08:59 -0800</pubDate>
             <sparkle:version>6</sparkle:version>
@@ -42,29 +57,6 @@ Fixes
 - The insertion line when reordering a card's tasks is no longer cut off.
 ]]></description>
             <enclosure url="https://github.com/kysz/releases/releases/download/planotion-v1.2.0/Planotion-1.2.0.zip" length="4601895" type="application/octet-stream" sparkle:edSignature="K8zT58wlopk9OEPXdCnVGSgGCn64+mTRJRGORMhjzcucgQJcSMbiXwpafo+A6DC1MViOQwwj4zXtjqDxI6PyAg=="/>
-        </item>
-        <item>
-            <title>1.1.0</title>
-            <pubDate>Fri, 20 Nov 2026 16:18:15 -0800</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Calendar and planning improvements.
-
-- **Block personal events automatically.** Turn it on in **Settings › Planning** and upcoming personal events are blocked on your work calendar without a right-click. Events you unblock by hand stay unblocked.
-- **Tasks in the same block share one card.** Each task gets its own row, which you can drag or open on its own. Rows that don't fit fold into a **+N** list.
-- **Overlapping blocks stack like Calendar.** When a later block leaves the earlier one's title visible, it's drawn on top, indented, instead of squeezed into its own column.
-- **Drag a project's Today heading onto the calendar** from Triage to block out time for it. Hold Shift to fill the block with the project's unscheduled Today tasks.
-- **See where an unscheduled task went.** Dragging a block off the calendar now highlights the project it went back to in the sidebar.
-- **A little celebration** when you tick off a task.
-
-Fixes
-
-- "Block time on" and "Block personal events on" now group calendars by account, so two calendars with the same name can be told apart.
-- A sub-task's link icon in a block's popup highlights on hover and no longer also opens the sub-task.
-- The outline around a dragged project heading is now evenly spaced.
-]]></description>
-            <enclosure url="https://github.com/kysz/releases/releases/download/planotion-v1.1.0/Planotion-1.1.0.zip" length="4520083" type="application/octet-stream" sparkle:edSignature="tIFZPv3/CbuOKRyMKPMDqeHr6G45f5qkOmbseGZ04OePHWgSQLogNBTAiBF4VAOp/spImo6/9xeB5jtolzgbAg=="/>
         </item>
     </channel>
 </rss>
