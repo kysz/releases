@@ -3,6 +3,22 @@
     <channel>
         <title>Planotion</title>
         <item>
+            <title>1.5.1</title>
+            <pubDate>Fri, 27 Nov 2026 16:29:11 -0800</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Your task order, kept in Notion.
+
+- **Task order lives in Notion.** Map a number column on your Tasks table in Settings › Fields, or click Create Column, and the order you drag tasks into is saved on the tasks themselves. It's the same on every device, and in any Notion view sorted by that column. Your current arrangement is copied over on the next sync.
+
+Fixes
+
+- Edits that hit Notion's rate limit are now retried instead of being undone.
+]]></description>
+            <enclosure url="https://github.com/kysz/releases/releases/download/planotion-v1.5.1/Planotion-1.5.1.zip" length="4756481" type="application/octet-stream" sparkle:edSignature="Jq7e5gnmr81va4vcNvD/T0feBRmT/gf/cVOS0sg16wKG3Mn7jrQLW/vAmBxH07p9+P3u+OhBWggfIeuNrPPKAQ=="/>
+        </item>
+        <item>
             <title>1.5.0</title>
             <pubDate>Fri, 27 Nov 2026 16:06:59 -0800</pubDate>
             <sparkle:version>8</sparkle:version>
@@ -36,24 +52,6 @@ Fixes
 - **Show other time zones.** Tick Time zones and add any you like. Each time then appears in every zone, with the weekday added where it falls on a different day.
 ]]></description>
             <enclosure url="https://github.com/kysz/releases/releases/download/planotion-v1.4.0/Planotion-1.4.0.zip" length="4690143" type="application/octet-stream" sparkle:edSignature="4kf1rNq4dIN+eX5d1Rb3RKfMAv9g14vGOxBxCMX75RTB0FCIq05e4SZUMlJyW9ur3k/e07Q+kTJ/lRtnxC8wBg=="/>
-        </item>
-        <item>
-            <title>1.3.0</title>
-            <pubDate>Sat, 21 Nov 2026 14:08:59 -0800</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[A cleaner Recently Completed list.
-
-- **Restore a task in one click.** Each row in Recently Completed now has a restore button on the right that marks the task undone. Right-click › Mark undone still works.
-- **Project icons lead each row**, so you can scan by project before reading titles.
-
-Fixes
-
-- The Recently Completed list no longer sits on a gray panel under its header.
-- No gray scrollbar track flashes when Recently Completed opens.
-]]></description>
-            <enclosure url="https://github.com/kysz/releases/releases/download/planotion-v1.3.0/Planotion-1.3.0.zip" length="4606571" type="application/octet-stream" sparkle:edSignature="OW7RWcM7wURzip8G0nOoyYBu2MxvQws9bgNajly6L5LkjN2gxNFLGmNfsTIbdsBF/08jgnFHN4GRzFrInw8EAg=="/>
         </item>
     </channel>
 </rss>
