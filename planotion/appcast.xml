@@ -3,6 +3,26 @@
     <channel>
         <title>Planotion</title>
         <item>
+            <title>1.5.0</title>
+            <pubDate>Fri, 27 Nov 2026 16:06:59 -0800</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Settings that follow you, and task durations you can tune.
+
+- **Settings sync across your Macs.** Durations, bucket limits, colors, block titles, Notion field mapping, scheduling and calendar display preferences now sync through iCloud. Calendar choices stay per Mac.
+- **Default task duration.** Pick 15 minutes to 1½ hours in Settings › Planning. New blocks use it unless the project sets its own.
+- **Per-project durations in Notion.** Map a number column on your Projects table in Settings › Fields, or click Create Column, and each project's default duration lives in Notion.
+- **Smarter bucket sizing.** Buckets size themselves from their open sub-tasks, capped at a multiple of the project default you choose.
+- **New tasks appear instantly.** Press Return and the task slides into the list right away, without waiting for Notion.
+
+Fixes
+
+- Booking a task on a later day no longer moves it into Today.
+]]></description>
+            <enclosure url="https://github.com/kysz/releases/releases/download/planotion-v1.5.0/Planotion-1.5.0.zip" length="4742873" type="application/octet-stream" sparkle:edSignature="J4jj7AV1PHslVsVx74ZC9NEFM8bW1VsiEkx6CJO1jSn6nLKuCODs6Ln3gBEnt8EXpBKDiP9gVUjkVY4hf1bRBg=="/>
+        </item>
+        <item>
             <title>1.4.0</title>
             <pubDate>Tue, 24 Nov 2026 14:52:02 -0800</pubDate>
             <sparkle:version>7</sparkle:version>
@@ -34,29 +54,6 @@ Fixes
 - No gray scrollbar track flashes when Recently Completed opens.
 ]]></description>
             <enclosure url="https://github.com/kysz/releases/releases/download/planotion-v1.3.0/Planotion-1.3.0.zip" length="4606571" type="application/octet-stream" sparkle:edSignature="OW7RWcM7wURzip8G0nOoyYBu2MxvQws9bgNajly6L5LkjN2gxNFLGmNfsTIbdsBF/08jgnFHN4GRzFrInw8EAg=="/>
-        </item>
-        <item>
-            <title>1.2.0</title>
-            <pubDate>Sat, 21 Nov 2026 13:49:56 -0800</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[A new look for cards and popovers, and drag-and-drop between the calendar and the sidebar.
-
-- **One card for tasks in the same slot.** Tasks booked into the same time show as a single card with a count and a segmented bar. Click it to see them side by side, reorder them, or drag one out onto its own time.
-- **Liquid Glass popovers.** Every popover is now the same rounded glass card, without the pointer tip.
-- **Drag a sidebar project onto the calendar** to block out time for it. The new block shows up right away, in Today if it's booked for today.
-- **Drag a block onto a sidebar project** to file it there.
-- **Calendar blocks are more solid**, and all-day events sit inset at the top of the day.
-- **Notes and links edit in place.** In a task's card, click "Add notes" or "Add link" and start typing. Return starts a new line in notes; click anywhere else to finish.
-
-Fixes
-
-- A task's title is editable on the first click.
-- A task card grows to fit its notes instead of cropping its top and bottom.
-- The insertion line when reordering a card's tasks is no longer cut off.
-]]></description>
-            <enclosure url="https://github.com/kysz/releases/releases/download/planotion-v1.2.0/Planotion-1.2.0.zip" length="4601895" type="application/octet-stream" sparkle:edSignature="K8zT58wlopk9OEPXdCnVGSgGCn64+mTRJRGORMhjzcucgQJcSMbiXwpafo+A6DC1MViOQwwj4zXtjqDxI6PyAg=="/>
         </item>
     </channel>
 </rss>
